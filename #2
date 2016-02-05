@@ -1,0 +1,23 @@
+size(1000,1000);
+background(0);
+
+int x1 = 50;
+
+
+
+int i=0; 
+while(i<20) {
+  fill((i-1)*20,240-20*i,255);
+  ellipse(x1+(55*i),50,50,50);
+  ellipse(50,x1+(55*i),50,50);
+ 
+  i=i+1;
+ 
+}
+int c=0;
+while(c<20) {
+  fill((c-1)*20,240-20*c,255);
+  ellipse(x1+(55*c),50,50,50);
+  ellipse(x1+(55*c),x1+(55*c),50,50);
+  c++;
+}
