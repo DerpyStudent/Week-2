@@ -1,0 +1,14 @@
+size(1000,1000);
+background(0);
+
+int x1 = 10;
+
+int y1 = 10;
+
+int i=1; 
+while(i<20) {
+  fill((i-1)*20,240-20*i,255);
+  ellipse(x1+(55*i),y1+(55*i),50,50);
+ 
+  i=i+1;
+}
